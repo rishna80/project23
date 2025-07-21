@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="navContainer">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">Steamy</span>Beans</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-dark"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active bg-1">
+          <div class="carousel-caption">
+            <h5>Coffee Factory</h5>
+            <p>Lorem ipsum dolor sitamet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore</p>
+            <a href="#" class="bg-warning text-white">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item bg-2">
+          <div class="carousel-caption">
+            <h5>Coffee Heaven</h5>
+            <p>Lorem ipsum dolor sitamet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore</p>
+            <a href="#" class="bg-warning text-white">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item bg-3">
+          <div class="carousel-caption">
+            <h5>Coffee Master</h5>
+            <p>Lorem ipsum dolor sitamet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore</p>
+            <a href="#" class="bg-warning text-white">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div class="aboutContainer">
+      <div class="about align componentSpacing">
+        <div class="aboutBody grid-3">
+          <div class="aboutBlock">
+            <div class="aboutjumbotron">
+              <h5>Who we are</h5>
+              <h2>About our coffee-shop</h2>
+              <p>Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id vehicula odio. Donec pulvinar tellus
+                eget magna aliquet ultricies. Praesent gravida hendrerit ex, nec eleifend sem convallis vitae.</p>
+              <button>View product</button>
+            </div>
+          </div>
+          <div class="aboutBlock">
+            <div class="aboutjumbotron">
+              <h5>Opening Hours</h5>
+              <p> <span>Monday</span>: 9:00 – 19:00</p>
+              <p> <span>Tuesday</span>: 9:00 – 19:00</p>
+              <p> <span>Wednesday</span>: 9:00 – 19:00</p>
+              <p> <span>Thursday</span>: 9:00 – 19:00</p>
+              <p> <span>Friday</span>: 9:00 – 19:00</p>
+              <p> <span>Saturday</span>: 11:00 – 16:00</p>
+              <p> <span>Sunday</span>: CLOSED</p>
+            </div>
+          </div>
+          <div class="aboutBlock">
+            <figure class="aboutImage">
+              <img src="./assets/images/images (1).jpg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="menuContainer">
+      <div class="menu align componentSpacing">
+        <div class="menuBody">
+          <div class="menuBlock">
+            <div class="menuTitle dflex-col">
+              <h3>Menu & Pricing</h3>
+              <h2>Competitive Pricing</h2>
+            </div>
+          </div>
+        </div>
+        <div class="priceBody grid-2">
+          <div class="priceBlock dflex-col">
+            <figure class="priceImage">
+              <img src="./assets/images/hot.webp" alt="">
+            </figure>
+            <div class="priceText">
+              <h3>Black Coffee</h3>
+              <h5>$5.55</h5>
+              <p>Wake up and smell the uniqueness!</p>
+            </div>
+            <figure class="priceImages">
+              <img src="./assets/images/cho-1.jpg" alt="">
+            </figure>
+            <div class="priceTitle">
+              <h4>Chocolete Coffee</h4>
+            </div>
+            <div class="priceText">
+              <h5>$7.45</h5>
+              <p>Let life be sweet like chocolate.</p>
+            </div>
+          </div>
+          <div class="priceBlock dflex-col">
+            <figure class="priceImages">
+              <img src="./assets/images/cap-1.jpg" alt="">
+            </figure>
+            <div class="priceTitle">
+              <h3>Cappuccino</h3>
+            </div>
+            <div class="priceText">
+              <h5>5.67 $</h5>
+              <p>This espresso-based drink is similar to a latte, but the frothy top layer is thicker.</p>
+            </div>
+            <figure class="priceImagess">
+              <img src="./assets/images/download (1).jpg" alt="">
+            </figure>
+            <div class="priceTitle">
+              <h3>Red Eye</h3>
+            </div>
+            <div class="priceText">
+              <h5>$4.55</h5>
+              <p>When you need an extra caffeine boost, go for this two-in-one drink: It's coffee with a shot of
+                espresso.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="galleryContainer">
+      <div class="title dflex">
+       <h2>Gallery</h2>
+      </div>
+   <div class="topContainer">
+       <img src="./assets/images/download.jpg" class="img">
+       <img src="./assets/images/download (1).jpg" class="img">
+       <img src="./assets/images/images (2).jpg" class="img">
+       <img src="./assets/images/images.jpg" class="img">
+       <img src="./assets/images/images (5).jpg" class="img">
+       <img src="./assets/images/images (3).jpg" class="img">
+   </div>
+</div>
+  </main>
+  <footer>
+    <section class="contactContainer">
+        <div class="contact">
+            <h2>Contact US</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                and scrambled it to make a type specimen book.</p>
+        </div>
+        <div class="botContainer">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><b></b><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>sugar camp road <br>Owatona,Minnesota,<br>22545521</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><b></b><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>210 369 7548</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><b></b><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>temproryEmail@adummy.domain</p>
+                    </div>
+                </div>
+                <h2 class="txt">Contact with us</h2>
+                <ul class="sci">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+
+  <script src="/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
